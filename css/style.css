@@ -1,0 +1,15 @@
+
+/* Variables */
+:root {
+    --background_0: #222;
+    --background_1: #ffffd9;
+    --gradient: linear-gradient(#F6D1FD 20%, #B589D6 40%, #9969C7 60%, #804FB3 60%, #6A359C 80%, #552586 80%);
+    --filter: sepia(1);
+    --outside-margin: 75px;
+    --inside-margin: 50px;
+    --border-radius: 5px;
+    --grid-margin: 50px;
+    --paper: url("../imgs/paper-tex.webp");
+    --font: 'Courier New', Courier, monospace;
+
+} 
