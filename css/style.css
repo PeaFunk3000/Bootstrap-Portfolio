@@ -60,7 +60,7 @@
   
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: #601035;
+    color: #552586;
   }
 
   /* Header */
@@ -105,7 +105,17 @@ header.masthead {
     
 }
 
-.img-fluid {
-    border-radius: 100x;
-    filter: var(--filter);
-}
+/* My Work */
+section.my-work {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background:linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD) !important;
+  }
+  
+  section.testimonials .testimonial-item {
+    max-width: 18rem;
+  }
+  
+  section.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
