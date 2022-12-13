@@ -85,11 +85,20 @@ header.masthead {
     justify-content: center;
     
 }
-.mb-5 {
+.header-content h1 {
     text-align: center;
     font-family: var(--font);
     color: #ffffd9;
     font-size: 60px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.header-content p {
+    text-align: center;
+    font-family: var(--font);
+    color: #ffffd9;
+    font-size: 30px;
     font-weight: 1000;
     text-transform: uppercase;
 }
@@ -109,7 +118,7 @@ header.masthead {
 section.my-work {
     padding-top: 7rem;
     padding-bottom: 7rem;
-    background:linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD) !important;
+    /* background:linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD) !important; */
   }
   
   section.testimonials .testimonial-item {
@@ -119,3 +128,23 @@ section.my-work {
   section.testimonials .testimonial-item img {
     max-width: 12rem;
     box-shadow: 0px 5px 5px 0px #adb5bd;
+  }
+
+  .my-work h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: 1000;
+    color: #222;
+    text-transform: uppercase;
+  }
+
+  .btn-primary {
+    color: #ffffd9;
+    background-color: #6A359C;
+    border-color: #552586
+  }
+  .btn-primary :hover {
+    color: #ffffd9;
+    background-color: #6A359C;
+    border-color: #552586
+  }
