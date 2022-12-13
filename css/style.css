@@ -4,6 +4,7 @@
     --background_0: #222;
     --background_1: #ffffd9;
     --gradient: linear-gradient(#F6D1FD 20%, #B589D6 40%, #9969C7 60%, #804FB3 60%, #6A359C 80%, #552586 80%);
+    --gradient2: linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
     --filter: sepia(1);
     --outside-margin: 75px;
     --inside-margin: 50px;
@@ -60,7 +61,7 @@
   
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: #601035;
+    color: #552586;
   }
 
   /* Header */
@@ -85,7 +86,7 @@ header.masthead {
     justify-content: center;
     
 }
-.mb-5 {
+h1 {
     text-align: center;
     font-family: var(--font);
     color: #ffffd9;
@@ -94,9 +95,33 @@ header.masthead {
     text-transform: uppercase;
 }
 
-.text-ousel {
-    align-self: flex-end;
+h2 {
+    text-align: center;
+    font-family: var(--font);
+    color: #ffffd9;
+    font-size: 45px;
+    font-weight: 1000;
+    text-transform: uppercase;
 }
+
+h5 {
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 900;
+    font-family: var(--font);
+
+}
+
+p {
+    text-align: center;
+    font-family: var(--font);
+    color: #ffffd9;
+    font-size: 20px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-bottom: 50px
+}
+
 .text-ousel p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -105,7 +130,59 @@ header.masthead {
     
 }
 
-.img-fluid {
-    border-radius: 100x;
-    filter: var(--filter);
+/* My Work */
+section.my-work {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    /* background:linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD) !important; */
+  }
+  
+  section.testimonials .testimonial-item {
+    max-width: 18rem;
+  }
+  
+  section.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+  }
+
+  .my-work h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: 1000;
+    color: #222;
+    text-transform: uppercase;
+  }
+
+  .btn-primary {
+    color: #ffffd9;
+    background-color: #6A359C;
+    border-color: #552586;
+    font-family: var(--font);
+    text-transform: uppercase;
+  }
+  
+  .btn-primary:hover {
+    color: #ffffd9;
+    background-color: #B589D6;
+    border-color: #552586
+  }
+
+  /* Contact */
+  .contact-section {
+    padding-top: 2rem;
+    background: var(--gradient2);
+    padding-bottom: 2rem;
+  }
+
+  label {
+    color: #ffffd9;
+    font-family: var(--font);
+    text-transform: uppercase;
+  }
+
+  a:not([href]):not([tabindex]) {
+    color: #ffffd9;
+    text-decoration: none;
 }
+
